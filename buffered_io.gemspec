@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = BufferedIO::VERSION
   gem.authors       = ['Scott M. Kroll']
   gem.email         = ['skroll@gmail.com']
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.summary       = %q{Library to buffer IO objects for efficient reading.}
+  gem.description   = gem.summary
+  gem.homepage      = 'https://github.com/skroll/ruby-buffered_io'
   gem.has_rdoc      = true
   gem.rdoc_options = ['--line-numbers', '--inline-source', '--title', 'BufferedIO', '--main', 'README.rdoc']
 
